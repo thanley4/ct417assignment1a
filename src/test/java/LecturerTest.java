@@ -9,11 +9,10 @@ public class LecturerTest
     @Test
     public void testLecturer()
     {
+        assertTrue(lecturer.getModules().isEmpty());
         assertEquals(lecturer.getUsername(), "Michael42");
         assertEquals(lecturer.getName(), "Michael");
         assertEquals(lecturer.getDateOfBirth(), new LocalDate(1980, 1, 1));
         assertEquals(lecturer.getAge(), 42);
-
-        assertTrue(lecturer.getModules().isEmpty());
     }
 }

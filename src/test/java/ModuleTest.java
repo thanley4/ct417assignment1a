@@ -10,14 +10,12 @@ public class ModuleTest
     @Test
     public void testModule()
     {
-        assertEquals(module.getName(), "Software Engineering 3");
-        assertEquals(module.getCode(), "CT417");
-
         assertTrue(module.getStudents().isEmpty());
         assertTrue(module.getCourses().isEmpty());
         assertNull(module.getLecturer());
-
         module.setLecturer(lecturer);
         assertEquals(module.getLecturer(), lecturer);
+        assertEquals(module.getName(), "Software Engineering 3");
+        assertEquals(module.getCode(), "CT417");
     }
 }

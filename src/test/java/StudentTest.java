@@ -9,13 +9,12 @@ public class StudentTest
     @Test
     public void testStudent()
     {
+        assertTrue(student.getCourses().isEmpty());
+        assertTrue(student.getModules().isEmpty());
         assertEquals(student.getName(), "Timothy");
         assertEquals(student.getDateOfBirth(), new LocalDate(2000, 12, 31));
         assertEquals(student.getAge(), 21);
         assertEquals(student.getId(), 19417576);
         assertEquals(student.getUsername(), "Timothy21");
-
-        assertTrue(student.getCourses().isEmpty());
-        assertTrue(student.getModules().isEmpty());
     }
 }

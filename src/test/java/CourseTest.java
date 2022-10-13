@@ -9,11 +9,10 @@ public class CourseTest
     @Test
     public void testCourse()
     {
+        assertTrue(course.getModules().isEmpty());
+        assertTrue(course.getStudents().isEmpty());
         assertEquals(course.getName(), "Electronic and Computer Engineering");
         assertEquals(course.getStartDate(), new LocalDate(2019, 9, 5));
         assertEquals(course.getEndDate(), new LocalDate(2024, 5, 31));
-
-        assertTrue(course.getModules().isEmpty());
-        assertTrue(course.getStudents().isEmpty());
     }
 }

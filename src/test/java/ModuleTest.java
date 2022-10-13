@@ -17,5 +17,6 @@ public class ModuleTest
         assertEquals(module.getLecturer(), lecturer);
         assertEquals(module.getName(), "Software Engineering 3");
         assertEquals(module.getCode(), "CT417");
+        System.out.println("\nModule Object Instantiation Successful");
     }
 }

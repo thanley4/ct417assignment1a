@@ -16,5 +16,6 @@ public class StudentTest
         assertEquals(student.getAge(), 21);
         assertEquals(student.getId(), 19417576);
         assertEquals(student.getUsername(), "Timothy21");
+        System.out.println("\nStudent Object Instantiation Successful");
     }
 }

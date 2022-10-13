@@ -14,5 +14,6 @@ public class LecturerTest
         assertEquals(lecturer.getName(), "Michael");
         assertEquals(lecturer.getDateOfBirth(), new LocalDate(1980, 1, 1));
         assertEquals(lecturer.getAge(), 42);
+        System.out.println("\nLecturer Object Instantiation Successful");
     }
 }

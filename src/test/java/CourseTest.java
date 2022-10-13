@@ -14,5 +14,6 @@ public class CourseTest
         assertEquals(course.getName(), "Electronic and Computer Engineering");
         assertEquals(course.getStartDate(), new LocalDate(2019, 9, 5));
         assertEquals(course.getEndDate(), new LocalDate(2024, 5, 31));
+        System.out.println("\nCourse Object Instantiation Successful");
     }
 }

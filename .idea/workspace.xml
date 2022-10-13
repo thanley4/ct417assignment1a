@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="188ecbfd-a402-43f0-8d22-d56699668e53" name="Changes" comment="Functional Commit">
+    <list default="true" id="188ecbfd-a402-43f0-8d22-d56699668e53" name="Changes" comment="Formatting Changes to toStrings">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CourseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LecturerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +57,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665481968967</updated>
       <workItem from="1665481971212" duration="1299000" />
+      <workItem from="1665588024535" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="Functional Commit">
       <created>1665482248134</created>
@@ -75,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665482248134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Formatting Changes to toStrings">
+      <created>1665667773763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665667773763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Functional Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functional Commit" />
+    <MESSAGE value="Formatting Changes to toStrings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatting Changes to toStrings" />
   </component>
 </project>

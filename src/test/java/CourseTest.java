@@ -6,8 +6,6 @@ public class CourseTest
 {
     Course course = new Course("Electronic and Computer Engineering", new LocalDate(2019, 9, 5), new LocalDate(2024, 5, 31));
 
-    /** Course Tests **/
-
     @Test
     public void testCourse()
     {

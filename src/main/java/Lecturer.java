@@ -45,6 +45,6 @@ public class Lecturer
 
     public String toString()
     {
-        return "Lecturer: " + name + ", " + age + ", " + dateOfBirth;
+        return name;
     }
 }

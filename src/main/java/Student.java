@@ -59,6 +59,6 @@ public class Student
 
     public String toString()
     {
-        return "Student: " + name + ", " + age + ", " + dateOfBirth + ", " + id;
+        return id + ": " + name;
     }
 }

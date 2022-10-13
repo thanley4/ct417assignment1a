@@ -49,14 +49,6 @@ public class Module
 
     public String toString()
     {
-        StringBuilder returnString = new StringBuilder();
-        returnString.append(name).append(" (").append(code).append(") - ").append(lecturer);
-        for (Student student : students)
-        {
-            returnString.append("\n        ").append(student);
-        }
-        returnString.append("\n");
-
-        return returnString.toString();
+        return name;
     }
 }

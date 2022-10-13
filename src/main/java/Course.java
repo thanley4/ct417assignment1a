@@ -46,14 +46,6 @@ public class Course
 
     public String toString()
     {
-        StringBuilder returnString = new StringBuilder();
-
-        returnString.append("Course: ").append(name).append(", ").append(startDate).append(", ").append(endDate);
-
-        for (Module module : modules)
-        {
-            returnString.append("\n    ").append(module);
-        }
-        return returnString.toString();
+        return name;
     }
 }
